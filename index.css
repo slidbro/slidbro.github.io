@@ -95,7 +95,7 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    border: 1px solid #4B4B4B;
    border-radius: 4px;
-   background-color: #3C3C3C;
+   background-color: #282828;
    background-image: none;
    color: #F5F5F5;
    font-family: Arial;
@@ -107,6 +107,13 @@ input:focus, textarea:focus, select:focus
    -webkit-appearance: none;
    margin: 0;
 }
+#Button1:hover
+{
+   font-size: 15px;
+   background-color: #3C3C3C;
+   -webkit-transition: font-size 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0ms, background-color 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0ms;
+   transition: font-size 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0ms, background-color 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0ms;
+}
 #Button2
 {
    box-sizing: border-box;
@@ -115,7 +122,7 @@ input:focus, textarea:focus, select:focus
    vertical-align: top;
    border: 1px solid #4B4B4B;
    border-radius: 4px;
-   background-color: #3C3C3C;
+   background-color: #282828;
    background-image: none;
    color: #F5F5F5;
    font-family: Arial;
@@ -126,4 +133,135 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    -webkit-appearance: none;
    margin: 0;
+}
+#Button2:hover
+{
+   font-size: 15px;
+   background-color: #3C3C3C;
+   -webkit-transition: font-size 400ms linear 0ms, background-color 400ms linear 0ms;
+   transition: font-size 400ms linear 0ms, background-color 400ms linear 0ms;
+}
+#Button3
+{
+   border: 1px solid #4B4B4B;
+   border-radius: 4px;
+   background-color: #282828;
+   background-image: none;
+   color: #F5F5F5;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button3:hover
+{
+   font-size: 15px;
+   background-color: #3C3C3C;
+   -webkit-transition: font-size 400ms linear 0ms, background-color 400ms linear 0ms;
+   transition: font-size 400ms linear 0ms, background-color 400ms linear 0ms;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_IconFont1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #D3D3D3;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont1
+{
+   height: 30px;
+   width: 23px;
+}
+#IconFont1 i
+{
+   color: #D3D3D3;
+   display: inline-block;
+   font-size: 23px;
+   line-height: 30px;
+   vertical-align: middle;
+   width: 25px;
+}
+#IconFont1:hover i
+{
+   color: #D3D3D3;
+}
+#wb_IconFont2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #D3D3D3;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont2
+{
+   height: 25px;
+   width: 23px;
+}
+#IconFont2 i
+{
+   color: #D3D3D3;
+   display: inline-block;
+   font-size: 23px;
+   line-height: 25px;
+   vertical-align: middle;
+   width: 23px;
+}
+#IconFont2:hover i
+{
+   color: #D3D3D3;
+}
+#wb_IconFont3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #D3D3D3;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#IconFont3
+{
+   height: 25px;
+   width: 23px;
+}
+#IconFont3 i
+{
+   color: #D3D3D3;
+   display: inline-block;
+   font-size: 23px;
+   line-height: 25px;
+   vertical-align: middle;
+   width: 23px;
+}
+#IconFont3:hover i
+{
+   color: #D3D3D3;
 }
