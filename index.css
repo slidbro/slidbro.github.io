@@ -163,6 +163,7 @@ input:focus, textarea:focus, select:focus
    background-color: #3C3C3C;
    -webkit-transition: font-size 400ms linear 0ms, background-color 400ms linear 0ms;
    transition: font-size 400ms linear 0ms, background-color 400ms linear 0ms;
+   cursor: pointer;
 }
 #wb_Text2 
 {
