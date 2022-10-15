@@ -1,3 +1,4 @@
-{
-  "phoenix": "test" 
-}
+[
+  "phoenix": "test",
+   "gilbert": "test2"
+]
