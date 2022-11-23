@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+body {
+    background-color: rgb(17, 17, 17);
+    cursor: default;
+}
+
+
+#mainblock {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+#cont {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    top: 40%;
+    position: relative;
+}
+
+
+.name {
+    font-family: 'Aldrich', sans-serif;
+    color:  white;
+    margin: auto;
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#logo {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+
+a {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(173, 173, 173);
+    font-size: small;
+    text-decoration: none;
+    
+}
+
+
+a:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#links {
+    position: absolute;
+    display: flex;
+    top: 80%;
+    text-align: center;  
+    margin-left: 210px;
+    width: 300px;
+}
+
+#links > div {
+    margin-left: 50px;
+}
+
+
