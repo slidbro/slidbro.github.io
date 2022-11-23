@@ -6,7 +6,7 @@ ErrorDocument 500 ERROR/408.html
 
 
 RewriteEngine On
-DirectoryIndex /devmsg.html
+DirectoryIndex devmsg.html
 
 <Files "admin">
     Deny From All
